@@ -28,7 +28,6 @@ int main() {
 
     printf("Sorted: ");
     for(i = 0; i < n; i++) printf("%d ", a[i]);
-    
     free(a);
 }
 

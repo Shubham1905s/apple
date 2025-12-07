@@ -1,5 +1,6 @@
-#include<stdio.h>
+// Data flow testing for commission problem
 
+#include<stdio.h>
 int main() {
     int locks, stocks, barrels;
     int tlocks = 0, tstocks = 0, tbarrels = 0;
