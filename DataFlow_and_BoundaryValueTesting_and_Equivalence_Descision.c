@@ -31,6 +31,7 @@ int main() {
     if (sales > 1800)comm = 100 + 120 + 0.20 * (sales - 1800);   
     else if (sales > 1000)comm = 100 + 0.15 * (sales - 1000);
     else comm = 0.10 * sales;
+    // printf("commisiion cannot be calculated\n");
 
     printf("Commission = %.2f\n", comm);
     return 0;
