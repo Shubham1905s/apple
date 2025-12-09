@@ -388,6 +388,7 @@ int daysInMonth(int m, int y)
         return 30;
     return 31;
 }
+
 int main()
 {
     int d, m, y;
